@@ -4,29 +4,34 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!-- change title to the company's name -->
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+    <!-- changed class declare "header" to html tag header -->
+    <header>
+        <!-- removed span tag and class "seo" -->
+        <h1>Horiseon</h1>
+        <!-- removed div container around ul and li, ul will be the container element -->
+        <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="hero" alt="background cover photo of a office team meeting"></div>
+
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- added id search-engine-optimization so nav element will take you to that section -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
